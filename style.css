@@ -1,0 +1,218 @@
+
+@media (max-width: 800px) {
+  .r-options {
+    flex-direction: column;
+  }
+}
+
+
+.accordian {
+  background-color: white;
+  width: 100%;
+}
+
+.accordian-header {
+  width: 100%;
+  min-height: 32px;
+  border: none;
+  font-size: 16pt;
+  padding: 16px 5vw;
+  background-color: #4CAF50;
+  color: white;
+  margin: 4px 0px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.accordian-header:hover {
+  background-color: #3e8e41;
+}
+
+
+
+.accordian-info {
+  background-color: white;
+  padding: 16px 5vw;
+}
+
+#App {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: mintcream;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16pt;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+}
+
+.btn-splash {
+  padding: 32px 64px;
+  font-size: 24pt;
+  width: 100%;
+}
+
+footer {
+  background: green;
+  height: 64px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+footer p {
+  text-align: center;
+}
+
+header {
+  background: green;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.logo {
+  width: 256px;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: clamp(320px, 30%, 480px);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  flex: 1;
+  text-align: center;
+}
+
+.partner_logo {
+  width: 15%;
+  height: auto;
+}
+
+#partnerLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#ResponseView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+}
+
+.r-text {
+  background: white;
+  padding: 32px;
+  font-size: x-large;
+  text-align: center;
+  width: clamp(256px, 80%, 1024px);
+  border: 1px solid lightgreen;
+  border-radius: 8px;
+}
+
+.r-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.r-option {
+  margin: 5%;
+  width: 256px;
+}
+
+.r-options {
+  display: flex;
+  justify-content: center;
+}
+
+.r-resources {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+#splashHeader {
+  text-align: center;
+  font-size: clamp(24pt, 6vw, 48pt);
+}
+
+#splashView {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: clamp(320px, 80%, 1024px);
+  height: 100%;
+}
+
+#splashView p {
+  text-align: center;
+}
+
+
+ul {
+  text-align: left;
+}
+
+
+
